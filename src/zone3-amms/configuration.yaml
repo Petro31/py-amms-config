@@ -1,0 +1,77 @@
+# Configuration version
+version: 2021.6.0001
+
+operator: petrosm
+
+# Kepware configuration.
+kepware:
+
+  # (str) Hostname of the computer we are using to 
+  # communicate with cams.
+  host: swvrogappcrlp01
+
+  # (str) Name of the kepware OPC client.  This shouldn't change
+  # unless the server version changes (i.e. .V5 or .V6 etc)
+  server: Kepware.KepServerEX.V6
+
+  # (int) Kepware connection timeout in 0.5 seconds.  e.g. 10 (attempts) * 0.5 = 5 seconds
+  timeout: 300
+
+zone3:
+  # Name of the digital IO device
+  digital_io: IO
+
+# Cams configuration.
+cams:
+
+  # (str) Tag prefix for the kepware OPC communication
+  station: Production_CAMS_AMMS.L5_AMMS_Audit_Station_02
+
+  # (int) (optional) Cams Transaction Timeout in 0.1 seconds.  e.g. 300 * 0.1 = 30 seconds.
+  timeout: 300
+
+  # (str) (optional) Cams Output Date Format.
+  dateformat: "%m/%d/%y"
+
+  # (str) (optional) Cams Output Time Format.
+  timeformat: "%H:%M:%S"
+
+smi:
+  # (float) Time delay that allows the smi to take a breath to ensure
+  # communication over the network in sec
+  timedelay: 0.1
+
+  # (float) LED voltage value for intensity.
+  voltage: 3.05
+
+  # Camera gain?
+  gain:
+
+    # Default gain used.
+    default: 225
+
+    # Gain at surface
+    svs:
+      surface: 250
+      coc: 250
+    svslite:
+      surface: 250
+      coc: 250
+    toric:
+      surface: 250
+      coc: 250
+    multifocal:
+      surface: 250
+      coc: 250
+    toricmf:
+      surface: 250
+      coc: 250
+    csvsk:
+      surface: 225
+      coc: 225
+    cmultifocalk:
+      surface: 225
+      coc: 225
+    ctoricr:
+      surface: 225
+      coc: 225

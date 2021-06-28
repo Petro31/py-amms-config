@@ -1,0 +1,627 @@
+version: 2021.6.0001
+machine: abc
+svs:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+svslite:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+toric:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+      toricity_0.025: 1.046
+      toricity_0.050: 1.046
+      toricity_0.075: 1.046
+      toricity_0.100: 1.046
+      toricity_0.125: 1.046
+      toricity_0.150: 1.046
+      toricity_0.175: 1.046
+      toricity_0.200: 1.046
+      toricity_0.225: 1.046
+      toricity_0.250: 1.046
+      toricity_0.275: 1.046
+      toricity_0.300: 1.046
+      toricity_0.325: 1.046
+      toricity_0.350: 1.046
+      toricity_0.375: 1.046
+      toricity_0.400: 1.046
+      toricity_0.425: 1.046
+      toricity_0.450: 1.046
+      toricity_0.475: 1.046
+      toricity_0.500: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+      toricity_0.025: 1.02
+      toricity_0.050: 1.02
+      toricity_0.075: 1.02
+      toricity_0.100: 1.02
+      toricity_0.125: 1.02
+      toricity_0.150: 1.02
+      toricity_0.175: 1.02
+      toricity_0.200: 1.02
+      toricity_0.225: 1.02
+      toricity_0.250: 1.02
+      toricity_0.275: 1.02
+      toricity_0.300: 1.02
+      toricity_0.325: 1.02
+      toricity_0.350: 1.02
+      toricity_0.375: 1.02
+      toricity_0.400: 1.02
+      toricity_0.425: 1.02
+      toricity_0.450: 1.02
+      toricity_0.475: 1.02
+      toricity_0.500: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+multifocal:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+toricmf:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+      toricity_0.025: 1.046
+      toricity_0.050: 1.046
+      toricity_0.075: 1.046
+      toricity_0.100: 1.046
+      toricity_0.125: 1.046
+      toricity_0.150: 1.046
+      toricity_0.175: 1.046
+      toricity_0.200: 1.046
+      toricity_0.225: 1.046
+      toricity_0.250: 1.046
+      toricity_0.275: 1.046
+      toricity_0.300: 1.046
+      toricity_0.325: 1.046
+      toricity_0.350: 1.046
+      toricity_0.375: 1.046
+      toricity_0.400: 1.046
+      toricity_0.425: 1.046
+      toricity_0.450: 1.046
+      toricity_0.475: 1.046
+      toricity_0.500: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+      toricity_0.025: 1.02
+      toricity_0.050: 1.02
+      toricity_0.075: 1.02
+      toricity_0.100: 1.02
+      toricity_0.125: 1.02
+      toricity_0.150: 1.02
+      toricity_0.175: 1.02
+      toricity_0.200: 1.02
+      toricity_0.225: 1.02
+      toricity_0.250: 1.02
+      toricity_0.275: 1.02
+      toricity_0.300: 1.02
+      toricity_0.325: 1.02
+      toricity_0.350: 1.02
+      toricity_0.375: 1.02
+      toricity_0.400: 1.02
+      toricity_0.425: 1.02
+      toricity_0.450: 1.02
+      toricity_0.475: 1.02
+      toricity_0.500: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+csvsk:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.00: 1.02
+      radii_5.25: 1.02
+      radii_5.50: 1.02
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 0.97
+      radii_6.75: 0.97
+      radii_7.00: 0.97
+      radii_7.25: 0.97
+      radii_7.50: 0.96
+      radii_7.75: 0.95
+      radii_8.00: 0.95
+      radii_8.25: 0.94
+      radii_8.50: 0.94
+      radii_8.75: 0.94
+      radii_9.00: 0.94
+      radii_9.25: 0.94
+      radii_9.50: 0.94
+      radii_9.75: 0.94
+      radii_10.00: 0.94
+      radii_10.25: 0.94
+      radii_10.50: 0.94
+      radii_10.75: 0.94
+      radii_11.00: 0.94
+    gamma:
+      default: 1.0
+      radii_5.00: 1.00
+      radii_5.25: 1.00
+      radii_5.50: 1.00
+      radii_5.75: 1.00
+      radii_6.00: 1.00
+      radii_6.25: 1.00
+      radii_6.50: 1.00
+      radii_6.75: 1.00
+      radii_7.00: 1.00
+      radii_7.25: 1.00
+      radii_7.50: 1.00
+      radii_7.75: 1.00
+      radii_8.00: 1.00
+      radii_8.25: 1.00
+      radii_8.50: 1.00
+      radii_8.75: 1.00 
+      radii_9.00: 1.00
+      radii_9.25: 1.00
+      radii_9.50: 1.00
+      radii_9.75: 1.00
+      radii_10.00: 1.00
+      radii_10.25: 1.00
+      radii_10.50: 1.00
+      radii_10.75: 1.00
+      radii_11.00: 1.00
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.00
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.00
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+cmultifocalk:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.50: 1.04
+      radii_5.75: 1.04
+      radii_6.00: 1.04
+      radii_6.25: 1.046
+      radii_6.50: 1.08
+      radii_6.75: 1.01
+      radii_7.00: 0.94
+      radii_7.25: 0.98
+      radii_7.50: 0.98
+      radii_7.75: 0.98
+      radii_8.00: 0.98
+      radii_8.25: 0.98
+      radii_8.50: 0.92
+      radii_8.75: 0.98
+      radii_9.00: 0.98
+      radii_9.25: 0.98
+      radii_9.50: 0.98
+      radii_9.75: 0.98
+      radii_10.00: 0.98
+      radii_10.25: 0.98
+      radii_10.50: 0.98
+      radii_10.75: 0.98
+      radii_11.00: 0.98
+    gamma:
+      default: 1.0
+      radii_5.50: 1.02
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
+
+ctoricr:
+  anterior:
+    alpha:
+      default: 1.0
+      radii_5.50: 1.046
+      radii_5.75: 1.046
+      radii_6.00: 1.046
+      radii_6.25: 1.046
+      radii_6.50: 1.046
+      radii_6.75: 1.046
+      radii_7.00: 1.046
+      radii_7.25: 1.046
+      radii_7.50: 1.046
+      radii_7.75: 1.046
+      radii_8.00: 1.046
+      radii_8.25: 1.046
+      radii_8.50: 1.046
+      radii_8.75: 1.046
+      radii_9.00: 1.046
+      radii_9.25: 1.046
+      radii_9.50: 1.046
+      radii_9.75: 1.046
+      radii_10.00: 1.046
+      radii_10.25: 1.046
+      radii_10.50: 1.046
+      radii_10.75: 1.046
+      radii_11.00: 1.046
+    gamma:
+      default: 1.0
+      radii_5.50: 1.02
+      radii_5.75: 1.02
+      radii_6.00: 1.02
+      radii_6.25: 1.02
+      radii_6.50: 1.02
+      radii_6.75: 1.02
+      radii_7.00: 1.02
+      radii_7.25: 1.02
+      radii_7.50: 1.02
+      radii_7.75: 1.02
+      radii_8.00: 1.02
+      radii_8.25: 1.02
+      radii_8.50: 1.02
+      radii_8.75: 1.02
+      radii_9.00: 1.02
+      radii_9.25: 1.02
+      radii_9.50: 1.02
+      radii_9.75: 1.02
+      radii_10.00: 1.02
+      radii_10.25: 1.02
+      radii_10.50: 1.02
+      radii_10.75: 1.02
+      radii_11.00: 1.02
+  posterior:
+    alpha:
+      default: 1.0
+      toricity_0.000: 1.046
+      toricity_0.025: 1.046
+      toricity_0.050: 1.046
+      toricity_0.075: 1.046
+      toricity_0.100: 1.046
+      toricity_0.125: 1.046
+      toricity_0.150: 1.046
+      toricity_0.175: 1.046
+      toricity_0.200: 1.046
+      toricity_0.225: 1.046
+      toricity_0.250: 1.046
+      toricity_0.275: 1.046
+      toricity_0.300: 1.046
+      toricity_0.325: 1.046
+      toricity_0.350: 1.046
+      toricity_0.375: 1.046
+      toricity_0.400: 1.046
+      toricity_0.425: 1.046
+      toricity_0.450: 1.046
+      toricity_0.475: 1.046
+      toricity_0.500: 1.046
+    gamma:
+      default: 1.0
+      toricity_0.000: 1.02
+      toricity_0.025: 1.02
+      toricity_0.050: 1.02
+      toricity_0.075: 1.02
+      toricity_0.100: 1.02
+      toricity_0.125: 1.02
+      toricity_0.150: 1.02
+      toricity_0.175: 1.02
+      toricity_0.200: 1.02
+      toricity_0.225: 1.02
+      toricity_0.250: 1.02
+      toricity_0.275: 1.02
+      toricity_0.300: 1.02
+      toricity_0.325: 1.02
+      toricity_0.350: 1.02
+      toricity_0.375: 1.02
+      toricity_0.400: 1.02
+      toricity_0.425: 1.02
+      toricity_0.450: 1.02
+      toricity_0.475: 1.02
+      toricity_0.500: 1.02
+  sphere:
+    radius: 5.95
+    z: 0.416
+  d2: 12.965
